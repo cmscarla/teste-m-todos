@@ -1,0 +1,21 @@
+package metodos;
+
+public class MetodosTeste {
+
+	public static void main(String[] args) {
+
+		Metodos metodos = new Metodos();
+		metodos.somaDoisNumeros(); // em métodos tem que ter os parenteses.
+
+		metodos.subDoisNumeros();
+		metodos.multiplica(20, 2);
+
+		Metodos metodos1 = new Metodos();
+		double result = metodos1.divide(20, 2);
+		System.out.println("A divisão é: " + result);
+
+		System.out.println("Finalizando programa");
+
+	}
+
+}
